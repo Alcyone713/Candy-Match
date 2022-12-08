@@ -1,0 +1,13 @@
+.scoreboard{
+    height: 100px;
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.187);
+    border: 5px solid rgb(252, 203, 245);
+    font-family: 'Pacifico';
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    border-radius: 7px;
+}

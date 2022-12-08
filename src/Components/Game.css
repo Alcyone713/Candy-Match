@@ -1,0 +1,42 @@
+.Game{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.board{
+    width: 580px;
+    height: 580px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    border: 8px solid rgb(252, 203, 245);
+    border-radius: 7px;
+}
+.board img{
+    height: 70px;
+    width: 70px;
+    border-radius: 7px;
+    border: 1px solid  rgb(252, 203, 245);;
+}
+
+@media only screen and (max-width: 650px){
+	.board {
+        width: 420px;
+        height: 420px;
+    }
+    .board img{
+        height: 50px;
+        width: 50px;
+    }
+}
+
+@media only screen and (max-width: 430px){
+	.board {
+        width: 332px;
+        height: 332px;
+    }
+    .board img{
+        height: 39px;
+        width: 39px;
+    }
+}
